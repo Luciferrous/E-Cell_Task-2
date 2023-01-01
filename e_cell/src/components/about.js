@@ -21,7 +21,7 @@ const  About = () =>
               </div>
 
               <div className='flex flex-col items-center'>
-                <p className='text-xl font-bold text-white p-2 animate-pulse '  data-aos="flip-left">About Us</p>
+                <p  data-aos="flip-left" className='text-xl font-bold text-white p-2 animate-pulse aos-init aos-animate '>About Us</p>
 
                 <div className='border-2 text-white mr-2 ml-2 mt-2 mb-8 p-2 text-justify rounded-xl'>
                     <p>Entrepreneurship Cell started its functioning in October 2014 to inculcate the passion and spirit among students to pursue entrepreneurship and bring together the hustling minds having innovative solutions to the common societal problems and create scalable business ideas. E-Cell MNNIT comprises content, design, web, marketing, videography and networking teams for the collaborative and holistic work approach. E-Cell MNNIT actively hosts innumerous events and acts as a catalyst between young minds and brilliant ideas.</p>

@@ -39,16 +39,17 @@ const Events = () => {
               <img className='h-[240px] w-full rounded-xl' src={event[card].images}></img>
             
            </div>
-           <div className='h-44 pl-4 pr-4 rounded-lg bg-gray-900 h-20 flex flex-col justify-around items-center text-justify'>
-             <p className='text-gray-900 font-bold bg-gray-200 pr-1 pl-1 rounded-lg'>{event[card].name}</p>
-             <p className='text-white'>{event[card].about}</p>
+           <div className='h-44 pl-4 pr-4 rounded-lg bg-black bg-opacity-10 border-2 flex flex-col justify-around items-center text-justify'>
+             <p className='text-gray-100 font-bold bg-black pr-1 pl-1 border-2 border-teal-300 rounded-lg'>{event[card].name}</p>
+             <p className='text-white transition:transform duration-300'>{event[card].about}</p>
+             
            </div>
           
        </div>
 
       <div className='flex justify-center items-center h-60 '>
         
-        <div className='bg-transparent'>
+        <div className='bg-transparent '>
         <AiOutlineDoubleLeft className='bg-black bg-opacity-50 rounded-full text-[25px]' onClick={slideLeft}/>
         </div>
 
