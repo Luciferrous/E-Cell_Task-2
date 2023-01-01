@@ -4,6 +4,7 @@ import React from 'react'
 
 import Home from './components/Home'
 import Stats from './components/stats'
+import About from './components/about'
 
 
 const Layout = () => {
@@ -15,6 +16,7 @@ const Layout = () => {
      
      <Home/>
      <Stats/>
+     <About/>
     </div>
   )
 }
