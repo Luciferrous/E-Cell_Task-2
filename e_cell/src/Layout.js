@@ -5,13 +5,12 @@ import React from 'react'
 import Home from './components/Home'
 import Stats from './components/stats'
 import About from './components/about'
-<<<<<<< HEAD
 import Form from './components/GetInTouch'
 import Footer from './components/footer'
-=======
+
 import Navbar from './components/Navbar'
 import Events from './components/Events'
->>>>>>> 7a6f6c6452df9d2985594175bfbda01d39cf1d45
+
 
 
 const Layout = () => {
@@ -26,17 +25,15 @@ const Layout = () => {
      <Home/>
      <Stats/>
      <About/>
-<<<<<<< HEAD
+     <Events/>
      <Form />
      <Footer />
-=======
-     <Events/>
+
+     
      </div>
      
      
-     
-     
->>>>>>> 7a6f6c6452df9d2985594175bfbda01d39cf1d45
+
     </div>
   )
 }

@@ -46,13 +46,20 @@ const Events = () => {
            </div>
           
        </div>
-
-      <div className='flex justify-center items-center h-60 '>
         
-        <div className='bg-transparent '>
-        <AiOutlineDoubleLeft className='bg-black bg-opacity-50 rounded-full text-[25px]' onClick={slideLeft}/>
+       <div className='h-10 w-screen flex justify-between items-center bg-black opacity-80'>
+        <div className='ml-10 bg-teal-300 rounded-full p-1 hover:scale-110'>
+          <AiOutlineDoubleLeft className='bg-black text-white p-1 rounded-full text-[25px]' onClick={slideLeft}/>
         </div>
 
+       <div className='mr-10 bg-teal-300 rounded-full p-1 hover:scale-110' >
+         <AiOutlineDoubleRight className='bg-black text-white p-1 text-[25px] rounded-full' onClick={slideRight}/>
+       </div>
+       </div>
+       
+      <div className='flex justify-center items-center h-60 '>
+        
+        
         
        <div id='slider' className='bg-white   overflow-x-scroll h-60 scroll-smooth whitespace-nowrap scrollbar-hide bg-[url("https://c4.wallpaperflare.com/wallpaper/575/25/99/digital-art-minimalism-cube-cross-wallpaper-preview.jpg")] bg-fixed bg-cover'>
            
@@ -66,13 +73,14 @@ const Events = () => {
            <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[7].images} onClick={() => setter(7)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[7].name}</p></div>
     
        </div>
-       <div >
-       <AiOutlineDoubleRight className='bg-black bg-opacity-50 text-[25px] rounded-full' onClick={slideRight}/>
-       </div>
+       
+
+       
 
        
        
      </div>
+     
      
    </>
   )
