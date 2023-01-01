@@ -7,7 +7,7 @@ const Stats = () => {
   return (
     <>
     <div>
-        <div className="bg-[url('https://c4.wallpaperflare.com/wallpaper/644/305/118/pattern-black-gradient-texture-wallpaper-thumb.jpg')] bg-cover h-screen bg-fixed p-5 z-20 flex flex-col items-center justify-center">
+        <div className="bg-[url('https://c4.wallpaperflare.com/wallpaper/644/305/118/pattern-black-gradient-texture-wallpaper-thumb.jpg')] bg-cover h-screen bg-fixed p-5 z-20 flex flex-col items-center justify-center lg:flex-row lg:h-40 lg:justify-around">
        
        {data.map((items)=>
        {

@@ -11,7 +11,7 @@ import Events from './components/Events'
 
 const Layout = () => {
   return (
-    <div className='w-full h-screen flex flex-col relative'>
+    <div className='w-full h-screen flex flex-col relative scrollbar-hide'>
      
      <div className='sticky top-0 h-20'>
        <Navbar/>  
