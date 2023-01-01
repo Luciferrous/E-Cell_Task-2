@@ -35,7 +35,7 @@ const Events = () => {
   return (
    <>
        <div className='bg-[url("https://c4.wallpaperflare.com/wallpaper/644/305/118/pattern-black-gradient-texture-wallpaper-thumb.jpg")] bg-fixed h-[450px] p-4 flex flex-col justify-around bg-cover  bg-fixed'>
-           <div className='flex flex-col transform duration-300 mb-2'>
+           <div className='flex flex-col mb-2'>
               <img className='h-[240px] w-full rounded-xl' src={event[card].images}></img>
             
            </div>
