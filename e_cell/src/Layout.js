@@ -9,10 +9,20 @@ import Form from './components/GetInTouch'
 import Get from './components/Get'
 import Navbar from './components/Navbar'
 import Events from './components/Events'
+import Startups from './components/Startup'
+import data from './assets/startup'
 
 
 
 const Layout = () => {
+  const cards=data.map(item=>{
+    return (
+      <Startups
+       title={item.title}
+       images={item.images}
+       about={item.about} />
+    )
+  })
   return (
     <div className='w-full h-full flex flex-col bg-back '>
      
@@ -26,6 +36,10 @@ const Layout = () => {
      <Stats/>
      <About/>
      <Events/>
+     <div className="flex justify-center items-center">
+     <h1 className="text-white text-5xl m-auto p-12 ">Startups by MNNITians</h1>
+     </div>
+     {cards}
      <Form />
      <Get/>
      </div>
