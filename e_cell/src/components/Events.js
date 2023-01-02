@@ -33,12 +33,12 @@ const Events = () => {
   }
   return (
    <>
-       <div className=' p-4 flex flex-col justify-around '>
+       <div className=' p-4 flex flex-col justify-around  lg:items-center'>
            <div className='flex flex-col mb-2'>
               <img className='h-[240px] w-full rounded-xl' src={event[card].images}></img>
             
            </div>
-           <div className='h-44 pl-4 pr-4 rounded-lg bg-black bg-opacity-10 border-2 flex flex-col justify-around items-center text-justify'>
+           <div className='h-44 pl-4 pr-4 rounded-lg bg-black bg-opacity-10 border-2 flex flex-col justify-around items-center text-justify lg:w-1/2'>
              <p className='text-gray-100 font-bold bg-black pr-1 pl-1 border-2 border-teal-300 rounded-lg'>{event[card].name}</p>
              <p className='text-white transition:transform duration-300'>{event[card].about}</p>
              
@@ -46,7 +46,7 @@ const Events = () => {
           
        </div>
         
-       <div className='h-10 w-screen flex justify-between items-center bg-black opacity-80'>
+       <div className='h-10 w-screen flex justify-between items-center bg-black opacity-80 '>
         <div className='ml-10 bg-teal-300 rounded-full p-1 hover:scale-110'>
           <AiOutlineDoubleLeft className='bg-black text-white p-1 rounded-full text-[25px]' onClick={slideLeft}/>
         </div>

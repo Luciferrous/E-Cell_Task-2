@@ -7,13 +7,13 @@ const Stats = () => {
   return (
     <>
     <div className='flex justify-center items-center'>
-      <div className="w-full flex m-[70px] justify-center items-center">
+      <div className="w-full flex  flex-col  lg:flex-row m-[70px] justify-center items-center">
        
        {data.map((items)=>
        {
            return(
            <>
-           <div className='w-32 h-32 mr-[50px] ml-[50px] bg-white rounded-lg hover:scale-110'>
+           <div className='w-32 h-32 mr-[50px] ml-[50px] bg-white mb-4 rounded-lg hover:scale-110'>
               <div className='h-20 flex justify-center items-center'><img className="w-10 h-10" src={items.image}></img></div>
               <div className='flex justify-center items-center font-bold'><p className='text-md'>{items.data}</p></div>
               <div className='flex justify-center items-center'><p>{items.name}</p></div>
