@@ -6,8 +6,7 @@ import Home from './components/Home'
 import Stats from './components/stats'
 import About from './components/about'
 import Form from './components/GetInTouch'
-import Footer from './components/footer'
-
+import Get from './components/Get'
 import Navbar from './components/Navbar'
 import Events from './components/Events'
 
@@ -15,21 +14,20 @@ import Events from './components/Events'
 
 const Layout = () => {
   return (
-    <div className='w-full h-screen flex flex-col relative scrollbar-hide'>
+    <div className='w-full h-full flex flex-col bg-back '>
      
-     <div className='sticky top-0 h-20'>
-       <Navbar/>  
+     <div className='sticky'>
+     <Navbar/>
      </div>
 
-     <div className=''>
+     <div className='w-full'>
+     
      <Home/>
      <Stats/>
      <About/>
      <Events/>
      <Form />
-     <Footer />
-
-     
+     <Get/>
      </div>
      
      

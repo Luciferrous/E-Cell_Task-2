@@ -33,7 +33,7 @@ const Events = () => {
   }
   return (
    <>
-       <div className='bg-[url("https://c4.wallpaperflare.com/wallpaper/644/305/118/pattern-black-gradient-texture-wallpaper-thumb.jpg")] bg-fixed h-[450px] p-4 flex flex-col justify-around bg-cover  bg-fixed'>
+       <div className=' p-4 flex flex-col justify-around '>
            <div className='flex flex-col mb-2'>
               <img className='h-[240px] w-full rounded-xl' src={event[card].images}></img>
             
@@ -60,7 +60,7 @@ const Events = () => {
         
         
         
-       <div id='slider' className='bg-white   overflow-x-scroll h-60 scroll-smooth whitespace-nowrap scrollbar-hide bg-[url("https://c4.wallpaperflare.com/wallpaper/575/25/99/digital-art-minimalism-cube-cross-wallpaper-preview.jpg")] bg-fixed bg-cover'>
+       <div id='slider' className='bg-white   overflow-x-scroll h-60 scroll-smooth whitespace-nowrap scrollbar-hide '>
            
            <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[0].images} onClick={() => setter(0)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[0].name}</p></div>
            <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[1].images} onClick={() => setter(1)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[1].name}</p></div>

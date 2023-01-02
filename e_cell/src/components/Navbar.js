@@ -16,13 +16,13 @@ function Navbar()
 
     return(
         <>
-       <div className='Navbar  fixed top-0  bg-teal-300 w-full h-16 drop-shadow-2xl flex justify-between '>
+       <div className='Navbar  fixed top-0  bg-blue w-full  drop-shadow-2xl flex justify-between '>
          
-         <div className='flex items-center p-2'>
+         <div className='ml-[20px] flex items-center p-2 '>
            <img className='w-10 rounded-full hover:scale-110' src='https://ecellmnnit.com//images/footer/ECellLogo.jpeg'></img>
          </div>
 
-         <div className=' items-center gap-5 p-2 hidden  lg:flex flex-row font-bold' >
+         <div className='mr-[20px] items-center gap-10 p-2 hidden  lg:flex flex-row  text-white' >
                <p>Home</p>
                <p>Event</p>
                <p>Startup</p>
@@ -43,7 +43,7 @@ function Navbar()
        <div className={`Sidebar Menu fixed top-16 right-[-20px]  bg-gradient-to-r from-cyan-400 to-teal-400 drop-shadow-2xl  rounded-lg ${menu ? 'w-3/4 m-2 h-[600px] p-1 ':'w-0 h-[200px] p-0'} transform  duration-500 lg:hidden`}>
 
          
-          <div className='w-full  h-full text-white bg-gray-900 p-4 rounded-lg'>
+          <div className='w-full text-white bg-gray-900 p-4 rounded-lg'>
             
             <div className='Main Icon h-60  flex justify-center items-center'>
                <img className="w-40 rounded-[200px]" src='https://ecellmnnit.com//images/footer/ECellLogo.jpeg'></img>
