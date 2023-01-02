@@ -11,13 +11,13 @@ const Home = () => {
   return (
 
 <>
-    <div className=''>
+    <div className='mt-[38px] w-full'>
        
-       <div className="mt-16 bg-[url('https://c4.wallpaperflare.com/wallpaper/413/925/249/minimalism-abstract-pattern-digital-art-wallpaper-preview.jpg')] h-[900px] bg-cover bg-fixed flex flex-col  items-center">
+       <div className=" bg-[url('https://c4.wallpaperflare.com/wallpaper/413/925/249/minimalism-abstract-pattern-digital-art-wallpaper-preview.jpg')] h-[900px] bg-cover bg-fixed flex flex-col  items-center">
        
   
         <div className='Main Icon h-60 w-40 flex justify-center items-center'>
-         <img className="w-40 rounded-[200px]" src='https://ecellmnnit.com//images/footer/ECellLogo.jpeg'></img>
+         <img className="w-40 rounded-[500px]" src='https://ecellmnnit.com//images/footer/ECellLogo.jpeg'></img>
         </div>
        
 
@@ -35,7 +35,7 @@ const Home = () => {
           <div className='h-[325px] flex justify-center items-center'>
 
              <div className='Ren bg-gray-800 w-3/4 h-60 m-2 rounded-lg flex flex-col  items-center lg:w-80'>
-                   <div className='text-[20px] h-20 flex items-center text-white font-bold font-mono'>
+                   <div className='text-[20px] h-20 flex items-center text-white font-semibold '>
                       Registeration Open
                    </div>
 
@@ -44,7 +44,7 @@ const Home = () => {
                   </div>
 
                   <div className='flex items-center h-20 text-xl'>
-                   <p className='bg-[url("https://c4.wallpaperflare.com/wallpaper/316/72/963/lion-art-vector-lines-wallpaper-preview.jpg")]  text-white rounded-full pt-1 pb-1 pr-2 pl-2 font-bold hover:scale-110'>Register Now</p>
+                   <p className='cursor-pointer bg-[url("https://c4.wallpaperflare.com/wallpaper/316/72/963/lion-art-vector-lines-wallpaper-preview.jpg")]  text-white rounded-full pt-1 pb-1 pr-2 pl-2 font-bold hover:scale-110'>Register Now</p>
                   </div>
              </div>
   
