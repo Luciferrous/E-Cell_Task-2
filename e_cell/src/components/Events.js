@@ -12,8 +12,7 @@ const Events = () => {
      slider.scrollLeft = slider.scrollLeft - 200
      if(card>0)
      setCard(card - 1)
-     else
-     setCard(7)
+     
 
   } 
 
@@ -24,8 +23,8 @@ const Events = () => {
 
     if(card<7)
      setCard(card + 1)
-     else
-     setCard(0)
+   
+     
   }
 
   const setter =(val) =>
@@ -56,7 +55,7 @@ const Events = () => {
          <AiOutlineDoubleRight className='bg-black text-white p-1 text-[25px] rounded-full' onClick={slideRight}/>
        </div>
        </div>
-       
+
       <div className='flex justify-center items-center h-60 '>
         
         
