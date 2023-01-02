@@ -9,9 +9,14 @@ const Events = () => {
   const slideLeft =() =>
   {
      var slider = document.getElementById('slider')
-     slider.scrollLeft = slider.scrollLeft - 200
+     slider.scrollLeft = slider.scrollLeft - 220
      if(card>0)
-     setCard(card - 1)
+      setCard(card - 1)
+     else
+     {
+      slider.scrollLeft = slider.scrollLeft + 1500
+      setCard(7)
+     }
      
 
   } 
@@ -19,10 +24,15 @@ const Events = () => {
   const slideRight =()=>
   {
     var slider = document.getElementById('slider')
-    slider.scrollLeft = slider.scrollLeft + 200
+    slider.scrollLeft = slider.scrollLeft + 220
 
     if(card<7)
      setCard(card + 1)
+     else
+     {
+     slider.scrollLeft = slider.scrollLeft - 1500
+     setCard(0)
+     }
    
      
   }
@@ -56,20 +66,20 @@ const Events = () => {
        </div>
        </div>
 
-      <div className='flex justify-center items-center h-60 '>
+      <div className='flex justify-center items-center h-64 '>
         
         
         
-       <div id='slider' className='bg-white   overflow-x-scroll h-60 scroll-smooth whitespace-nowrap scrollbar-hide '>
+       <div id='slider' className='bg-white ml-2 mr-2 overflow-x-scroll h-60 scroll-smooth whitespace-nowrap scrollbar-hide '>
            
-           <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[0].images} onClick={() => setter(0)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[0].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[1].images} onClick={() => setter(1)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[1].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[2].images} onClick={() => setter(2)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[2].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[3].images} onClick={() => setter(3)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[3].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[4].images} onClick={() => setter(4)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[4].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[5].images} onClick={() => setter(5)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[5].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[6].images} onClick={() => setter(6)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[6].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className="w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[7].images} onClick={() => setter(7)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[7].name}</p></div>
+           <div className='w-50 h-40 inline-block text-center'><img className={`${card==0?'border-8  border-gray-300':''} w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg`} src={event[0].images} onClick={() => setter(0)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[0].name}</p></div>
+           <div className='w-50 h-40 inline-block text-center'><img className="w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[1].images} onClick={() => setter(1)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[1].name}</p></div>
+           <div className='w-50 h-40 inline-block text-center'><img className="w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[2].images} onClick={() => setter(2)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[2].name}</p></div>
+           <div className='w-50 h-40 inline-block text-center'><img className="w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[3].images} onClick={() => setter(3)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[3].name}</p></div>
+           <div className='w-50 h-40 inline-block text-center'><img className="w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[4].images} onClick={() => setter(4)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[4].name}</p></div>
+           <div className='w-50 h-40 inline-block text-center'><img className="w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[5].images} onClick={() => setter(5)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[5].name}</p></div>
+           <div className='w-50 h-40 inline-block text-center'><img className="w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[6].images} onClick={() => setter(6)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[6].name}</p></div>
+           <div className='w-50 h-40 inline-block text-center'><img className="w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 rounded-lg" src={event[7].images} onClick={() => setter(7)}></img><p className='bg-gray-900 text-white pt-1 pb-1 font-mono m-2 rounded-xl border-2'>{event[7].name}</p></div>
     
        </div>
        

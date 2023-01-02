@@ -6,7 +6,7 @@ const Form = ()=>{
             <div>
             
             <h2 className=" hover:scale-105 font-bold flex m-3 p-2 justify-center items-center text-white text-3xl">FEEL FREE TO CONTACT IN CASE OF QUERIES</h2>
-            <div className="  bg-gray-900 flex flex-col justify-center items-center font-bold mx-auto p-5  w-500 h-90 border rounded-xl">
+            <div className="  bg-gray-900 flex flex-col justify-center items-center font-bold mx-auto p-5   h-90 border rounded-xl">
               <div >
               <label className="text-white p-2 m-2"> NAME:  </label>
                 <input type="text" className="border rounded p-2 m-2" placeholder="Enter your name here" /> 
