@@ -8,15 +8,13 @@ const Startups=(props)=>{
   return(
     <>
     
-    <div className=" h-80 border flex  rounded-2xl group bg-white m-4 p-2">
-      <div className=" flex flex-row">
+    <div className="w-140 h-80 border flex rounded-2xl group bg-white m-4 p-2">
+      <div className=" flex flex-row ">
     {/* <h1 className="text-white text-3xl font-bold">{props.title}</h1> */}
-    <div>
-    <img className="w-60 collapse md:visible h-full flex self-center md:basis-1/4" src={props.images} alt={props.title}/>
+    <img className="w-60 h-full flex self-center" src={props.images} alt={props.title}/>
     </div>
-    <div className="md:basis-1/4 h-full w-full bg-black flex items-center justify-center  opacity-0 group-hover:opacity-100 overflow-hidden transition-all border rounded-3xl duration-300 text-cyan-400 font-xl font-bold">
-    <p className="p-2 m-2">{props.about}</p>
-    </div>
+    <div className=" h-full w-full bg-black flex items-center justify-center  opacity-0 group-hover:opacity-100 overflow-hidden transition-all duration-300 text-cyan-400 font-xl font-bold">
+    <p>{props.about}</p>
     </div>
     </div>
     </>

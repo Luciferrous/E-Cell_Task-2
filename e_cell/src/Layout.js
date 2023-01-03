@@ -42,7 +42,7 @@ const Layout = () => {
      <About/>
      <Events/>
      <div className="flex justify-center items-center">
-     <h1 className="text-white text-5xl m-auto p-12 ">Startups by MNNITians</h1>
+     <h1 className="text-blue font-bold text-3xl m-auto p-12 ">Startups By MNNITians</h1>
      </div>
      {cards}
      <Form />

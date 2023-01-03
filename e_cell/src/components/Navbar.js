@@ -16,7 +16,7 @@ function Navbar()
 
     return(
         <>
-       <div className='Navbar  fixed top-0  bg-blue w-full  drop-shadow-2xl flex justify-between '>
+       <div className='Navbar top-0  bg-blue w-full  drop-shadow-2xl flex justify-between '>
          
          <div className='ml-[20px] flex items-center p-2 '>
            <img className='w-10 rounded-full hover:scale-110' src='https://ecellmnnit.com//images/footer/ECellLogo.jpeg'></img>

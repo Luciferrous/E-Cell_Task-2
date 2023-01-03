@@ -17,7 +17,7 @@ const  About = () =>
        <div className='' >
         <div className="About bg-sec">
 
-        <div className='p-2 flex flex-col justify-center'>
+        <div className='flex flex-col justify-center'>
 
               {/* <div className='h-80 bg-cover bg-center bg-[url("https://ecellmnnit.com//icons/AboutUs/rectangle.png")] border-2 rounded-xl ' >
                   
