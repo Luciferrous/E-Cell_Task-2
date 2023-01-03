@@ -44,7 +44,7 @@ const Events = () => {
   return (
    <>
    <div className='Event Main flex flex-col items-center'>
-        <h1 className='text-blue font-bold text-3xl mb-[40px]'>Events</h1>
+        <h1 className='text-blue font-bold text-3xl mb-[40px] animate-ping-1'>Events</h1>
        <div className='Info Box w-full p-4 flex flex-col justify-around   lg:items-center lg:flex-row '>
             
            <div className='flex flex-col  lg: lg:w-1/2 mb-4 lg:mb-0 lg:items-center'>
@@ -65,14 +65,14 @@ const Events = () => {
 
        
         
-       <div className='p-1 w-screen flex justify-between items-center bg-black bg-opacity-0 m-2 '>
-        <div className=' bg-teal-300 rounded-full p-1 hover:scale-110'>
-          <AiOutlineDoubleLeft className='bg-black text-white p-1 rounded-full text-[25px]' onClick={slideLeft}/>
-        </div>
+       <div className='p-1 w-[300px] lg:w-[400px]  flex justify-between items-center bg-black bg-opacity-0 m-2 '>
+           <div className=' bg-teal-300 rounded-full p-1 hover:scale-110'>
+                 <AiOutlineDoubleLeft className='bg-black text-white p-1 rounded-full text-[25px]' onClick={slideLeft}/>
+           </div>
 
-       <div className='mr-10 bg-teal-300 rounded-full p-1 hover:scale-110' >
-         <AiOutlineDoubleRight className='bg-black text-white p-1 text-[25px] rounded-full' onClick={slideRight}/>
-       </div>
+           <div className=' bg-teal-300 rounded-full p-1 hover:scale-110' >
+              <AiOutlineDoubleRight className='bg-black text-white p-1 text-[25px] rounded-full' onClick={slideRight}/>
+           </div>
        </div>
 
        <div className='flex justify-center items-center '>

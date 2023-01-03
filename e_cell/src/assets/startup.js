@@ -10,12 +10,12 @@ const data =[
         images:'https://ecellmnnit.com//images/Startup/logo/logo/drivezy.png',
         about:"Drivezy (formerly JustRide) is India's largest marketplace for car and two-wheeler sharing. Through Drivezy, travelers can book scooters, motorcycles and cars from people living around them.All in all, Drivezy is a car rental platform. Car owners can list their vehicles on Drivezy when they are not using it and the customers can rent it whenever they want to.When it comes to automobiles, millennials today do not believe in ownership and maintenance of their cars and bikes."
     },
-    {
-        title:"Baabtra",
-        images:'https://ecellmnnit.com//images/Startup/logo/logo/baabtra.png',
-        about:"Baabtra, the best software training company in Calicut has proved its expertise by training and placing several hundreds of students both in MNC’s like UST Global, Infosys, Oracle etc and SME’s like Nucore Software Solutions, Sesame, IOSS, ULTS."
+    // {
+    //     title:"Baabtra",
+    //     images:'https://ecellmnnit.com//images/Startup/logo/logo/baabtra.png',
+    //     about:"Baabtra, the best software training company in Calicut has proved its expertise by training and placing several hundreds of students both in MNC’s like UST Global, Infosys, Oracle etc and SME’s like Nucore Software Solutions, Sesame, IOSS, ULTS."
 
-    },
+    // },
     {
         title:"Everycrave",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/EC_Logo.jpg',
@@ -36,10 +36,10 @@ const data =[
     //     images:'https://ecellmnnit.com//images/Startup/logo/logo/symbtechnologies_logo.png',
     //     about:"SYMB Technologies provide complete digital solutions to their clients in diverse sectors from Ecommerce, Solar & Banking to Manufacturing & Trading. SYMB Technologies helps agencies, startups, SMEs & large enterprises turn their ideas into reality by delivering solutions turn-key results on time and on budget. SYMB Technologies was founded in 2014, when Bhupendra Kunwar a post graduate from IIM Lucknow & a technology graduate from NIT Allahabad quit his job to start a company to provide web & mobile application development services to businesses in Delhi NCR."
     // },
-    {
-        title:"Unacademy",
-        images:'https://ecellmnnit.com//images/Startup/logo/logo/Unacademy_Logo.png',
-        about:"Unacademy is an Indian educational technology company that provides online educational platform[2] with its headquarters in Bangalore, Karnataka. It prepares students for various competitive exams(like JEE, NEET, UPSC, CA, GATE, UPSC NDA, CUET, Boards etc.), as well as provides content on foundational (K-12) and skill building courses (programming, photography, entrepreneurship, etc.).t was founded by Gaurav Munjal, Hemesh Singh and Roman Saini in 2015. As of May 2022, Unacademy was valued at USD $3.44 billion"
-    }
+    // {
+    //     title:"Unacademy",
+    //     images:'https://ecellmnnit.com//images/Startup/logo/logo/Unacademy_Logo.png',
+    //     about:"Unacademy is an Indian educational technology company that provides online educational platform[2] with its headquarters in Bangalore, Karnataka. It prepares students for various competitive exams(like JEE, NEET, UPSC, CA, GATE, UPSC NDA, CUET, Boards etc.), as well as provides content on foundational (K-12) and skill building courses (programming, photography, entrepreneurship, etc.).t was founded by Gaurav Munjal, Hemesh Singh and Roman Saini in 2015. As of May 2022, Unacademy was valued at USD $3.44 billion"
+    // }
 ]
 export default data;

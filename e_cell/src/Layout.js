@@ -23,16 +23,16 @@ const Layout = () => {
 
   const cards=data.map(item=>{
     return (
-      <Startups
+    <div className="flex ">  <Startups
        title={item.title}
        images={item.images}
-       about={item.about} />
+       about={item.about} /></div>
     )
   })
   return (
     <div className='w-full h-full flex flex-col bg-back relative '>
      
-     <div className='sticky '>
+     <div className='sticky top-0'>
      <Navbar/>
      </div>
 
@@ -45,16 +45,14 @@ const Layout = () => {
      <div className="flex justify-center items-center">
      <h1 className="text-blue font-bold text-3xl m-auto p-12 ">Startups By MNNITians</h1>
      </div>
+     <div className="lg:flex w-full lg:basis-1/3 m-5 p-5 mb-10 pb-11">
      {cards}
-     <Testimonial/>
-     <Form />
-     
-     <Get/>
-     
      </div>
      
-     
-
+     </div>
+     <Testimonial/>
+     <Form />
+     <Get/>
     </div>
   )
 }
