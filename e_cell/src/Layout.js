@@ -31,7 +31,7 @@ const Layout = () => {
   return (
     <div className='w-full h-full flex flex-col bg-back relative '>
      
-     <div className='sticky '>
+     <div className='sticky top-0'>
      <Navbar/>
      </div>
 

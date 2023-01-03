@@ -65,14 +65,14 @@ const Events = () => {
 
        
         
-       <div className='p-1 w-screen flex justify-between items-center bg-black bg-opacity-0 m-2 '>
-        <div className=' bg-teal-300 rounded-full p-1 hover:scale-110'>
-          <AiOutlineDoubleLeft className='bg-black text-white p-1 rounded-full text-[25px]' onClick={slideLeft}/>
-        </div>
+       <div className='p-1 w-[300px] lg:w-[400px]  flex justify-between items-center bg-black bg-opacity-0 m-2 '>
+           <div className=' bg-teal-300 rounded-full p-1 hover:scale-110'>
+                 <AiOutlineDoubleLeft className='bg-black text-white p-1 rounded-full text-[25px]' onClick={slideLeft}/>
+           </div>
 
-       <div className='mr-10 bg-teal-300 rounded-full p-1 hover:scale-110' >
-         <AiOutlineDoubleRight className='bg-black text-white p-1 text-[25px] rounded-full' onClick={slideRight}/>
-       </div>
+           <div className=' bg-teal-300 rounded-full p-1 hover:scale-110' >
+              <AiOutlineDoubleRight className='bg-black text-white p-1 text-[25px] rounded-full' onClick={slideRight}/>
+           </div>
        </div>
 
        <div className='flex justify-center items-center '>

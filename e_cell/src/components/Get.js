@@ -20,7 +20,7 @@ const Get=()=>{
       <div className="flex flex-col justify-center items-center">
         <p className=" text-pblue mt-[20px] mb-[50px] text-4xl font-black">Get In Touch</p>
 
-        <div className="flex flex-col bg-sec mb-[50px] pl-[40px] pr-[40px] pt-[70px] pb-[70px] w-[500px] rounded md:w-[600px] md:rounded-tr-full md:rounded-bl-full lg:w-[700px] lg:rounded-tr-full lg:rounded-bl-full">
+        <div className="flex flex-col bg-sec mb-[50px] pl-[40px] pr-[40px] pt-[70px] pb-[70px] w-[500px] rounded md:w-[600px] md:rounded-tr-full md:rounded-bl-full lg:w-[700px] lg:rounded-tr-full lg:rounded-bl-full hover:rounded-br-full drop-shadow-xl hover:rounded-tl-full hover:rounded-tr-none hover:rounded-bl-none duration-500">
           <div className="flex justify-center items-center  mb-[20px]">
             <div className="flex w-[306px] ">
             <div className="flex justify-center items-center flex-[0.2] mr-[30px]"><SlLocationPin className="hover:scale-110" size="20px" color="hsl(179, 93%, 44%)"/></div>
