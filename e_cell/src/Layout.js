@@ -15,6 +15,7 @@ import data from './assets/startup'
 
 
 const Layout = () => {
+
   const cards=data.map(item=>{
     return (
       <Startups
@@ -30,7 +31,7 @@ const Layout = () => {
      <Navbar/>
      </div>
 
-     <div className='w-full'>
+     <div id="page" className='w-full'>
      
      <Home/>
      <Stats/>
