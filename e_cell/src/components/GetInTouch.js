@@ -2,11 +2,11 @@ import React from "react";
 
 const Form = ()=>{
     return(
-<<<<<<< HEAD
+     
         <div className="bg-gray-700 mt-10 pt-14  justify-around  ">
-=======
+
         <div className="bg-sec justify-around  ">
->>>>>>> 2d9def35de027a49e40d9ca764d4ddacd8a13c5f
+
               
             <div className="flex justify-start">
                  <h2 className="font-bold flex m-3 p-2 md:justify-center items-center text-white text-2xl">FEEL FREE TO CONTACT IN CASE OF QUERIES</h2>
@@ -44,6 +44,7 @@ const Form = ()=>{
 
             </div>
            
+        </div>
         </div>
     )
 }
