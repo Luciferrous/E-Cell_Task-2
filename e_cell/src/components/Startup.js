@@ -16,6 +16,7 @@ const Startups=(props)=>{
     </div>
     <div className=" hover:visible relative collapse lg:visible md:basis-1/4 h-full w-80 bg-black -z-index-1 hover:z-index-3 flex items-center justify-center hover:-mb-80 opacity-0 group-hover:opacity-100 overflow-hidden transition-all border rounded-3xl duration-300 text-cyan-400 font-xl font-bold">
     <p className=" p-2 m-2 -z-index-1 hover:z-index-3 flex  w-full h-full ">{props.about}</p>
+    
     </div>
     </div>
     </div>

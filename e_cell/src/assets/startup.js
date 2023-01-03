@@ -10,12 +10,6 @@ const data =[
         images:'https://ecellmnnit.com//images/Startup/logo/logo/drivezy.png',
         about:"Drivezy (formerly JustRide) is India's largest marketplace for car and two-wheeler sharing. Through Drivezy, travelers can book scooters, motorcycles and cars from people living around them.All in all, Drivezy is a car rental platform."
     },
-    // {
-    //     title:"Baabtra",
-    //     images:'https://ecellmnnit.com//images/Startup/logo/logo/baabtra.png',
-    //     about:"Baabtra, the best software training company in Calicut has proved its expertise by training and placing several hundreds of students both in MNC’s like UST Global, Infosys, Oracle etc and SME’s like Nucore Software Solutions, Sesame, IOSS, ULTS."
-
-    // },
     {
         title:"Everycrave",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/EC_Logo.jpg',
