@@ -2,13 +2,13 @@ const data =[
     {
         title:"LOCO",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/dark_image.png',
-        about:"Loco has been a pioneer in the live game streaming and esports sector in India, paving the way for gaming to go from a niche hobby to a mainstream national interest. The ‘Made in India’ platform is home to India’s most popular streamers and has built highly engaged communities across various games including BGMI (BattleGrounds Mobile India),FreeFire Max, GTA, and Call of Duty Mobile. The platform houses India’s top esports teams and has hosted the country’s largest tournaments in partnership with global game publishers like Activision, Ubisoft, and Riot Games as well as global brands like the NBA, Logitech, and Red Bull. Loco has grown rapidly over the past 24 months, with daily active viewers scaling by 8x, monthly active streamers scaling by 5x, and live watch hours scaling by 86x since January 2021."
+        about:"Loco has been a pioneer in the live game streaming and esports sector in India, paving the way for gaming to go from a niche hobby to a mainstream national interest. The ‘Made in India’ platform is home to India’s most popular streamers and has built highly engaged communities across various games including BGMI (BattleGrounds Mobile India),FreeFire Max, GTA, and Call of Duty Mobile. The platform houses India’s top esports teams and has hosted the country’s largest tournaments in partnership with global game publishers!"
 
     },
     {
         title:"DRIVEZY",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/drivezy.png',
-        about:"Drivezy (formerly JustRide) is India's largest marketplace for car and two-wheeler sharing. Through Drivezy, travelers can book scooters, motorcycles and cars from people living around them.All in all, Drivezy is a car rental platform. Car owners can list their vehicles on Drivezy when they are not using it and the customers can rent it whenever they want to.When it comes to automobiles, millennials today do not believe in ownership and maintenance of their cars and bikes. They believe in renting, using, enjoying, and being merry! Exploiting this insight merely on its merit, Ashwarya Pratap Singh, Hemant Kumar Sah, Abhishek Mahajan, Vasant Verma, and Amit Sahu started Drivezy in the year 2015."
+        about:"Drivezy (formerly JustRide) is India's largest marketplace for car and two-wheeler sharing. Through Drivezy, travelers can book scooters, motorcycles and cars from people living around them.All in all, Drivezy is a car rental platform. Car owners can list their vehicles on Drivezy when they are not using it and the customers can rent it whenever they want to.When it comes to automobiles, millennials today do not believe in ownership and maintenance of their cars and bikes."
     },
     {
         title:"Baabtra",
@@ -19,7 +19,7 @@ const data =[
     {
         title:"Everycrave",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/EC_Logo.jpg',
-        about:"EveryCrave is a Digital Media and Application Development company based out of Bangalore, India.At EveryCrave, they strive to demystify Digital Process for their customers and help organizations conceive and implement innovative and sustainable Digital Business Models.With EveryCrave, what clients get is an extended Digital team, which workstirelessly to ensure projects are on track and achieve business goals. Through their expertise and creativity across Design, Development and Digital Marketing, EveryCrave is one of the foremost Digital agencies in the country, having served some of the largest organizations in the world."
+        about:"EveryCrave is a Digital Media and Application Development company based out of Bangalore, India.At EveryCrave, they strive to demystify Digital Process for their customers and help organizations conceive and implement innovative and sustainable Digital Business Models.With EveryCrave, what clients get is an extended Digital team, which workstirelessly to ensure projects are on track and achieve business goals. "
     },
     {
         title:"Kratikal",
