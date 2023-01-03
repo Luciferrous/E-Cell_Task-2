@@ -16,7 +16,9 @@ import data from './assets/startup'
 
 const Layout = () => {
 
-  var slide = document.getElementById('page')
+ const auto = () =>{
+  
+ }
 
   
 

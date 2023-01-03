@@ -1,6 +1,9 @@
 import React ,{useState} from 'react'
 import event from '../assets/event'
 import {AiOutlineDoubleLeft ,AiOutlineDoubleRight } from "react-icons/ai";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init()
 
 const Events = () => {
 
@@ -44,7 +47,7 @@ const Events = () => {
   return (
    <>
    <div className='Event Main flex flex-col items-center'>
-        <h1 className='text-blue font-bold text-3xl mb-[40px] animate-ping-1'>Events</h1>
+        <h1 data-aos="zoom-in" className='text-blue font-bold text-3xl mb-[40px] aos-init aos-animate'>Events</h1>
        <div className='Info Box w-full p-4 flex flex-col justify-around   lg:items-center lg:flex-row '>
             
            <div className='flex flex-col  lg: lg:w-1/2 mb-4 lg:mb-0 lg:items-center'>

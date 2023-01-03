@@ -57,7 +57,7 @@ const  About = () =>
                 
                 <div className="bg-back">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                  <path fill="hsl(217, 10%, 25%)" fill-opacity="1" d="M0,192L1440,288L1440,0L0,0Z"></path>
+                  <path fill="hsl(217, 10%, 25%)" fillOpacity="1" d="M0,192L1440,288L1440,0L0,0Z"></path>
                 </svg>
                 </div>
                 

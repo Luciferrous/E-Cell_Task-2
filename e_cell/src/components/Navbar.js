@@ -2,11 +2,19 @@ import React ,{useState}from 'react'
 import { BiMenu } from "react-icons/bi";
 import { AiFillInstagram,AiFillLinkedin,AiFillFacebook,AiFillTwitterCircle } from "react-icons/ai";
 
-
+let Scroll = 0;
+console.log(Scroll)
 
 function Navbar()
 {
     const [menu , setmenu] = useState(false)
+    
+    
+    
+    
+
+   
+
 
     function clicked()
     {
@@ -23,12 +31,12 @@ function Navbar()
          </div>
 
          <div className=' items-center gap-10 p-2 hidden  lg:flex flex-row  text-white' >
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer'>Home</p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer'>Event</p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer'>Startup</p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer'>Webinar</p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer'>Team</p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer'>Contact</p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=0}>Home</p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=1}>Event</p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=2}>Startup</p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=3}>Webinar</p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=4}>Team</p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=5}>Contact</p>
          </div> 
          
        
