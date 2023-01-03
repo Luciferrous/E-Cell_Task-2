@@ -16,13 +16,13 @@ function Navbar()
 
     return(
         <>
-       <div className='Navbar  fixed top-0  bg-blue w-full  drop-shadow-2xl flex justify-between '>
+       <div className='Navbar top-0  bg-blue w-full  drop-shadow-2xl flex justify-between '>
          
          <div className='ml-[20px] flex items-center p-2 '>
            <img className='w-10 rounded-full hover:scale-110' src='https://ecellmnnit.com//images/footer/ECellLogo.jpeg'></img>
          </div>
 
-         <div className='mr-[20px] items-center gap-10 p-2 hidden  lg:flex flex-row  text-white' >
+         <div className=' items-center gap-10 p-2 hidden  lg:flex flex-row  text-white' >
                <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer'>Home</p>
                <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer'>Event</p>
                <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer'>Startup</p>

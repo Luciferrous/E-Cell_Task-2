@@ -15,6 +15,11 @@ import data from './assets/startup'
 
 
 const Layout = () => {
+
+  var slide = document.getElementById('page')
+
+  
+
   const cards=data.map(item=>{
     return (
     <div className="flex ">  <Startups
@@ -30,14 +35,18 @@ const Layout = () => {
      <Navbar/>
      </div>
 
-     <div className='w-full'>
+     <div id="page" className='w-full'>
      
      <Home/>
      <Stats/>
      <About/>
      <Events/>
      <div className="flex justify-center items-center">
+<<<<<<< HEAD
      <h1 className="text-white text-5xl m-auto p-12 mt-8 mb-5 font-bold pt-6">Startups by MNNITians</h1>
+=======
+     <h1 className="text-blue font-bold text-3xl m-auto p-12 ">Startups By MNNITians</h1>
+>>>>>>> 2d9def35de027a49e40d9ca764d4ddacd8a13c5f
      </div>
      <div className="lg:flex w-full lg:basis-1/3 m-5 p-5 mb-10 pb-11">
      {cards}
