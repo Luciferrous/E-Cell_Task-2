@@ -2,7 +2,7 @@ import React from "react";
 
 const Form = ()=>{
     return(
-        <div className="bg-gray-700 h-100  justify-around  ">
+        <div className="bg-gray-700   justify-around  ">
               
             <div className="flex justify-start">
                  <h2 className=" hover:scale-105 font-bold flex m-3 p-2 md:justify-center items-center text-white text-3xl">FEEL FREE TO CONTACT IN CASE OF QUERIES</h2>
@@ -34,10 +34,10 @@ const Form = ()=>{
 
               </div>
 
-              <div className="p-8 m-7 w-0 md:w-1/4 lg:w-1/2 flex ">
-                <img className="w-full h-[400px] collapse md:visible hover:animate-bounce duration-700 delay-200 transition-shadow ease-in-out border rounded-full " src="https://img.freepik.com/free-vector/contact-us-concept-illustration_114360-2299.jpg?w=360&t=st=1672580651~exp=1672581251~hmac=3f25c9801dcdb0da17ecc451c1025f20ea083854f3ce7f85b9e907b678b15e95"></img>
+              <div className="p-8 m-7 w-0 md:w-1/4  flex hidden lg:w-1/2 lg:block ">
+                <img className="w-full h-[400px] hover:animate-bounce duration-700 delay-200 transition-shadow ease-in-out border rounded-full " src="https://img.freepik.com/free-vector/contact-us-concept-illustration_114360-2299.jpg?w=360&t=st=1672580651~exp=1672581251~hmac=3f25c9801dcdb0da17ecc451c1025f20ea083854f3ce7f85b9e907b678b15e95"></img>
               </div>
-              
+
             </div>
            
         </div>
