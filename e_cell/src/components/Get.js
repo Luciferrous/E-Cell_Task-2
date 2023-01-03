@@ -3,6 +3,13 @@ import { SlLocationPin } from "react-icons/sl";
 import {BsFillTelephoneFill} from "react-icons/bs"
 import {MdEmail} from "react-icons/md"
 import { AiFillInstagram,AiFillLinkedin,AiFillFacebook,AiFillTwitterCircle } from "react-icons/ai";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init()
+
+
+
+
 const Get=()=>{
   return(
     <>
@@ -11,14 +18,14 @@ const Get=()=>{
                     preserveAspectRatio="none">
                     <path
                         d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                        class="shape-fill" fill="hsl(217, 10%, 25%)"></path>
+                        className="shape-fill" fill="hsl(217, 10%, 25%)"></path>
         </svg>
        </div>
     
     <div className="flex justify-center items-center w-full">
     
       <div className="flex flex-col justify-center items-center">
-        <p className=" text-pblue mt-[20px] mb-[50px] text-4xl font-black">Get In Touch</p>
+        <p data-aos="zoom-in" className=" text-pblue mt-[20px] mb-[50px] text-4xl font-black aos-init aos-animate">Get In Touch</p>
 
         <div className="flex flex-col bg-sec mb-[50px] pl-[40px] pr-[40px] pt-[70px] pb-[70px] w-[500px] rounded md:w-[600px] md:rounded-tr-full md:rounded-bl-full lg:w-[700px] lg:rounded-tr-full lg:rounded-bl-full">
           <div className="flex justify-center items-center  mb-[20px]">
