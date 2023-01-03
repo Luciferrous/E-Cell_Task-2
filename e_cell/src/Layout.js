@@ -16,6 +16,10 @@ import data from './assets/startup'
 
 const Layout = () => {
 
+  var slide = document.getElementById('page')
+
+  
+
   const cards=data.map(item=>{
     return (
       <Startups
