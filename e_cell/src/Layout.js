@@ -10,6 +10,7 @@ import Get from './components/Get'
 import Navbar from './components/Navbar'
 import Events from './components/Events'
 import Startups from './components/Startup'
+import Testimonial from './components/Testimonial'
 import data from './assets/startup'
 
 
@@ -45,8 +46,11 @@ const Layout = () => {
      <h1 className="text-blue font-bold text-3xl m-auto p-12 ">Startups By MNNITians</h1>
      </div>
      {cards}
+     <Testimonial/>
      <Form />
+     
      <Get/>
+     
      </div>
      
      
