@@ -13,10 +13,11 @@ const Home = () => {
        
        <div className=" bg-[url('https://c4.wallpaperflare.com/wallpaper/413/925/249/minimalism-abstract-pattern-digital-art-wallpaper-preview.jpg')] h-[900px] bg-cover bg-fixed flex flex-col  items-center">
        
-  
+       
         <div className='Main Icon h-60 w-40 flex justify-center items-center'>
          <img className="w-40 rounded-[500px]" src='https://ecellmnnit.com//images/footer/ECellLogo.jpeg'></img>
         </div>
+       
        
 
         <div className='Home w-full'> 

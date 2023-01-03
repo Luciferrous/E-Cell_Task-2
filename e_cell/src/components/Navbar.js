@@ -40,7 +40,7 @@ function Navbar()
          
        </div>
        
-       <div className={`Sidebar Menu fixed top-16 right-[-20px]  bg-gradient-to-r from-cyan-400 to-teal-400 drop-shadow-2xl  rounded-lg ${menu ? 'w-3/4 m-2 h-[600px] p-1 ':'w-0 h-[200px] p-0'} transform  duration-500 lg:hidden`}>
+       <div className={`Sidebar Menu fixed top-16 right-[-20px]  bg-gradient-to-r from-cyan-400 to-teal-400 drop-shadow-2xl  rounded-lg ${menu ? 'w-3/4 m-2 h-[596px] p-1 ':'w-0 h-[200px] p-0'} transform  duration-500 lg:hidden`}>
 
          
           <div className='w-full text-white bg-gray-900 p-4 rounded-lg'>
@@ -49,7 +49,7 @@ function Navbar()
                <img className="w-40 rounded-[200px]" src='https://ecellmnnit.com//images/footer/ECellLogo.jpeg'></img>
             </div>
 
-            <div className={`h-28 text-[30px] gap-5 flex justify-around items-center ${menu ?'':'hidden'} `}>
+            <div className={`h-28  gap-5 flex justify-around items-center ${menu ?' text-[30px]':' text-transparent text-[0px]'} transform duration-500`}>
               <p className='cursor-pointer hover:scale-110'><AiFillFacebook/></p>
               <p className='cursor-pointer hover:scale-110'><AiFillInstagram/></p>
               <p className='cursor-pointer hover:scale-110'><AiFillLinkedin/></p>
@@ -58,13 +58,13 @@ function Navbar()
             
             
 
-            <div className={`h-[200px] flex flex-col justify-center items-start ${menu ? '' : 'hidden'}`}>
-            <p className='pt-2 pb-1 hover:bg-gray-400 w-full rounded-lg p-2'>Home</p>
-            <p className='pt-2 pb-1 hover:bg-gray-400 w-full rounded-lg p-2'>Event</p>
-            <p className='pt-2 pb-1 hover:bg-gray-400 w-full rounded-lg p-2'>Startup</p>
-            <p className='pt-2 pb-1 hover:bg-gray-400 w-full rounded-lg p-2'>Webinar</p>
-            <p className='pt-2 pb-1 hover:bg-gray-400 w-full rounded-lg p-2'>Team</p>
-            <p className='pt-2 pb-1 hover:bg-gray-400 w-full rounded-lg p-2'>Contact</p>
+            <div className={`h-[200px] flex flex-col justify-center items-start ${menu ? 'h-40' : 'h-0 text-[0px]'} transform duration-500`}>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full hover: rounded-lg p-2'>Home</p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'>Event</p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'>Startup</p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'>Webinar</p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'>Team</p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'>Contact</p>
             </div> 
           </div>
           

@@ -43,21 +43,27 @@ const Events = () => {
   }
   return (
    <>
-       <div className=' p-4 flex flex-col justify-around  lg:items-center'>
-           <div className='flex flex-col mb-2'>
-              <img className='h-[240px] w-full rounded-xl' src={event[card].images}></img>
+   <div className='Event Main'>
+       <div className='Info Box w-full p-4 flex flex-col justify-around   lg:items-center lg:flex-row '>
+           <div className='flex flex-col  lg: lg:w-1/2 mb-4 lg:mb-0 lg:items-center'>
+              <img className=' rounded-xl h-[200px] lg:w-[600px] lg:h-[360px]' src={event[card].images}></img>
             
            </div>
-           <div className='h-44 pl-4 pr-4 rounded-lg bg-black bg-opacity-10 border-2 flex flex-col justify-around items-center text-justify lg:w-1/2'>
-             <p className='text-gray-100 font-bold bg-black pr-1 pl-1 border-2 border-teal-300 rounded-lg'>{event[card].name}</p>
-             <p className='text-white transition:transform duration-300'>{event[card].about}</p>
-             
+           <div className='About Event h-[240px] pl-4 pr-4 pb-4 rounded-lg bg-black bg-opacity-10 border-2 flex flex-col justify-around items-center text-justify lg:w-[600px] lg:h-[360px] '>
+             <div className=''>
+                 <p className={`text-gray-100 font-bold bg-sec pr-10 pl-10 border-2 border-teal-300  lg:text-[40px] ${card%2==0?'rounded-br-full rounded-tl-full':'rounded-tr-full rounded-bl-full'} transform duration-300 `}>{event[card].name}</p>
+             </div>
+             <div className=''>
+                <p className='text-white transition:transform duration-300 lg:text-[20px]'>{event[card].about}</p>
+             </div>
            </div>
           
        </div>
+
+       
         
-       <div className='h-10 w-screen flex justify-between items-center bg-black opacity-80 '>
-        <div className='ml-10 bg-teal-300 rounded-full p-1 hover:scale-110'>
+       <div className='p-1 w-screen flex justify-between items-center bg-black bg-opacity-0 m-2 '>
+        <div className=' bg-teal-300 rounded-full p-1 hover:scale-110'>
           <AiOutlineDoubleLeft className='bg-black text-white p-1 rounded-full text-[25px]' onClick={slideLeft}/>
         </div>
 
@@ -66,7 +72,7 @@ const Events = () => {
        </div>
        </div>
 
-      <div className='flex justify-center items-center h-64 '>
+       <div className='flex justify-center items-center '>
         
         
         
@@ -88,7 +94,9 @@ const Events = () => {
 
        
        
-     </div>
+       </div>
+
+    </div>
      
      
    </>

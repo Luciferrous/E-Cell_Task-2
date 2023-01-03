@@ -24,9 +24,9 @@ const Layout = () => {
     )
   })
   return (
-    <div className='w-full h-full flex flex-col bg-back '>
+    <div className='w-full h-full flex flex-col bg-back relative '>
      
-     <div className='sticky'>
+     <div className='sticky '>
      <Navbar/>
      </div>
 
