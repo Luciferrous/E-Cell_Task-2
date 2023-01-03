@@ -31,7 +31,7 @@ export default Startups;
 
 
 
-
+// Not under use right now go to start.js
 
 
 
