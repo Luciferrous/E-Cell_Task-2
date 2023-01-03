@@ -16,7 +16,7 @@ const Start = () => {
         <div className='h-40 w-screen flex justify-center items-center'>
            <p className='text-blue text-[40px]'>Startups</p>
         </div>
-        <div className='flex flex-col lg:flex-row justify-around items-center bg-sec '>
+        <div className='flex flex-col lg:flex-row justify-around items-center bg-back '>
         
                  <div className='Card bg-white w-[250px]'>
                      <div className='w-[250px] h-[250px]'>
