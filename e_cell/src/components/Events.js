@@ -51,10 +51,10 @@ const Events = () => {
            </div>
            <div className='About Event h-[240px] pl-4 pr-4 pb-4 rounded-lg bg-black bg-opacity-10 border-2 flex flex-col justify-around items-center text-justify lg:w-[600px] lg:h-[360px] '>
              <div className=''>
-                 <p className={`text-gray-100 font-bold bg-sec pr-10 pl-10 border-2 border-teal-300  lg:text-[40px] ${card%2==0?'rounded-br-full rounded-tl-full':'rounded-tr-full rounded-bl-full'} transform duration-300 `}>{event[card].name}</p>
+                 <p className={`text-gray-100 font-bold bg-sec pr-10 pl-10 border-2 border-teal-300  lg:text-[40px] ${card%2==0?'rounded-br-full rounded-tl-full':'rounded-tr-full rounded-bl-full '} transform duration-300 `}>{event[card].name}</p>
              </div>
              <div className=''>
-                <p className='text-white transition:transform duration-300 lg:text-[20px]'>{event[card].about}</p>
+                <p className='text-white transition:transform duration-300 lg:text-[20px] drop-shadow-xl'>{event[card].about}</p>
              </div>
            </div>
           

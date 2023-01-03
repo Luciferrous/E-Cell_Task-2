@@ -14,6 +14,9 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 0.2s linear 0.5',
+        'spin-1': 'spin 0.2s linear 0.7',
+        'ping-1':' ping 1s cubic-bezier(0, 0, 0.5, 1) 1',
+        'ping-2':' ping 1s cubic-bezier(1, 0, 0.5, 1) 1'
         
       }
       

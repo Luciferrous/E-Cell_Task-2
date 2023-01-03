@@ -22,11 +22,11 @@ const Home = () => {
 
         <div className='Home w-full'> 
           
-        <div  className='Main Text text-white ml-5 mr-5 h-[250px] flex flex-col justify-center items-center'>
+        <div  className='Main Text text-white ml-5 mr-5 h-[250px] flex flex-col justify-center items-center '>
       
-      <p  className={`text-[25px]  `}>Unfolding Advancement</p>
-      <p className='text-[38px] font-bold underline underline-offset-8'>Entrepreneurship Cell</p>
-      <p className='text-[25px] font-bold mt-5'>MNNIT ALLAHABAD</p>
+      <p  className='text-[25px] animate-ping-2'>Unfolding Advancement</p>
+      <p className='text-[38px] font-bold underline underline-offset-8 animate-ping-1'>Entrepreneurship Cell</p>
+      <p className='text-[25px] font-bold mt-5 animate-ping-2'>MNNIT ALLAHABAD</p>
 
 
    </div>

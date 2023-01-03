@@ -25,7 +25,7 @@ const  About = () =>
 
               <div className='flex flex-col'>
                 <div className='flex-[0.4] mb-[30px] flex justify-center items-center'>
-                <p  data-aos="zoom-in" className='text-3xl font-bold text-white p-2 animate-pulse aos-init aos-animate '>More About Us</p>
+                <p  data-aos="zoom-in" className='text-3xl font-bold text-white p-2 animate-pulse aos-init aos-animate relative z-0 '>More About Us</p>
                 </div>
                 
 
