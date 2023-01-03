@@ -1,11 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import {BiMenu,BiChevronsDown} from "react-icons/bi";
 
-import menu from '../assets/Images/menu';
-import AOS from 'aos'
-import 'aos/dist/aos.css';
-AOS.init()
-
 
 const Home = () => {
    
@@ -26,14 +21,14 @@ const Home = () => {
 
         <div className='Home w-full'> 
           
-          <div className='Main Text text-white ml-5 mr-5 h-[250px] flex flex-col justify-center items-center '>
+        <div  className='Main Text text-white ml-5 mr-5 h-[250px] flex flex-col justify-center items-center'>
       
-             <p data-aos="fade-in" className={`text-[25px] aos-init aos-animate `}>Unfolding Advancement</p>
-             <p className='text-[38px] font-bold underline underline-offset-8'>Entrepreneurship Cell</p>
-             <p className='text-[25px] font-bold mt-5'>MNNIT ALLAHABAD</p>
-     
+      <p  className={`text-[25px]  `}>Unfolding Advancement</p>
+      <p className='text-[38px] font-bold underline underline-offset-8'>Entrepreneurship Cell</p>
+      <p className='text-[25px] font-bold mt-5'>MNNIT ALLAHABAD</p>
 
-          </div>
+
+   </div>
 
           <div className='h-[325px] flex justify-center items-center'>
 
