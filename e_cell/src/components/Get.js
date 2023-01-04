@@ -56,6 +56,8 @@ const Get=()=>{
         <div className="cursor-pointer  mr-[30px] bg-sec p-[4px] hover:rounded-[5000px]  hover:scale-110 transition-all duration-1000 "><AiFillLinkedin  size="50px" color="hsl(179, 93%, 44%)" /></div>
         
         </div>
+
+        <p className="text-white mb-[30px] ">Copyright © E-Cell 2023. All rights reserved</p>
       </div>
     </div>
     </>

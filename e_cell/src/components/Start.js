@@ -95,7 +95,7 @@ const Start = () => {
                         </div>
                         
                         <div className={`${!val5?'hidden':'hover:scale-110 transition-all duration-1000'} rounded-xl bg-back w-[260px] h-[260px]  p-2 text-center text-white `}>
-                          <p >{data[4].about}</p>
+                          <p className="">{data[4].about}</p>
                         </div>
                        
                      </div>

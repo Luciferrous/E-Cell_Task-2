@@ -11,33 +11,24 @@ const Testimonial =()=>{
 
     const next=()=>{
         // console.log(len);
-        console.log("prevx "+x);
-        if(x+1<len){
-            x++;
-        }else x=0;
+        if(idx<2) nextIdx(idx+1);
+        else nextIdx(0);
 
-        if(y+1<len) y++;
-        else y=0;
-        console.log(x);
-        nextIdx(x);
-        nextIdx1(y);
-        
+        if(idx1<2) nextIdx1(idx1+1);
+        else nextIdx1(0);
     }
     const prev=()=>{
-        if(x-1>=0)
-        x=(x-1)
-        else x=len-1;
-        if(y-1>=0)
-        y=(y-1)
-        else y=len-1;
-        nextIdx(x);
-        nextIdx1(y);
+        if(idx>0) nextIdx(idx-1);
+        else nextIdx(len-1);
+
+        if(idx1>0) nextIdx1(idx1-1);
+        else nextIdx1(len-1);
     }
     return(
         <>
         <div className="bg-back">
         <div className=" p-[20px] bg-back flex justify-center items-center"><h1 className="mt-4 pt-8 text-pblue font-bold text-3xl ">Lines Of Appreciation</h1></div>
-        <div className=" bg-back pt-[50px] pb-[50px] w-full flex justify-center items-center">
+        <div className=" bg-back pt-[30px] pb-[50px] w-full flex justify-center items-center">
             
             <div onClick={prev} className="cursor-pointer mr-[40px] h-[30px] w-[30px] bg-blue flex justify-center items-center rounded-[5000px]">
             <GrLinkPrevious color="white"/>
@@ -61,7 +52,7 @@ const Testimonial =()=>{
                 </div>
             </div>
 
-            <div className="hidden rounded h-[580px] w-[382px] bg-sec flex flex-col p-[9px] ">
+            <div className="rounded h-[580px] w-[382px] bg-sec flex flex-col p-[9px]  hidden lg:block ">
                 <div className="h-[300px] w-[364px]">
                     <div className="h-[300px] w-[364px] absolute bg-pblue opacity-40 z-5 hover:opacity-0 transition-all duration-1000"></div>
                     <img className="w-full h-full mb-[10px]" src={testimonial[idx1].img}></img>

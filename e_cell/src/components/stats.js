@@ -13,7 +13,7 @@ const Stats = () => {
        {
            return(
            <>
-           <div className='w-32 h-32 mr-[50px] ml-[50px] bg-white mb-4 rounded-lg hover:scale-110'>
+           <div className='w-32 h-32 mr-[50px] ml-[50px] bg-white mb-4 rounded-lg hover:scale-110  transition-all duration-1000'>
               <div className='h-20 flex justify-center items-center'><img className="w-10 h-10" src={items.image}></img></div>
               <div className='flex justify-center items-center font-bold'><p className='text-md'>{items.data}</p></div>
               <div className='flex justify-center items-center'><p>{items.name}</p></div>
