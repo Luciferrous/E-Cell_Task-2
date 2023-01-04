@@ -13,7 +13,7 @@ const data =[
     {
         title:"Everycrave",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/EC_Logo.jpg',
-        about:"EveryCrave is a Digital Media and Application Development company based out of Bangalore, India.At EveryCrave, they strive to demystify Digital Process for their customers and help organizations conceive and implement innovative and sustainable Digital Business Mode. "
+        about:"EveryCrave is a Digital Media and Application Development company based out of Bangalore, India.At EveryCrave, they strive to demystify Digital Process for their customers and help organizations  implement innovative  Digital Business Model. "
     },
     {
         title:"Kratikal",
