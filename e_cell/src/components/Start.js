@@ -23,11 +23,19 @@ const Start = () => {
         </div>
         <div className='flex flex-col lg:flex-row justify-around items-center bg-back '>
         
+<<<<<<< HEAD
                  <div className='Card mb-2 pb-2 border rounded-2xl bg-white w-[250px]'>
                      <div className='w-[250px] h-[250px]'>
                      <div className='info flex flex-col justify-around' onMouseEnter={()=>setval1(!val1)} onMouseLeave={()=>setval1(!val1)}>
                         <div className={`w-[250px]  hover:hidden ${val1?'hidden':''}` }>
                            <img className='w-[250px] '  src={data[0].images}></img>
+=======
+                 <div className='Card bg-white w-[250px]' onMouseEnter={()=>setval1(!val1)} onMouseLeave={()=>setval1(!val1)}>
+                     <div className='w-[250px] h-[250px]'>
+                     <div className='info flex flex-col justify-around' >
+                        <div className={`w-[250px] hover:hidden ${val1?'hidden':''}` }>
+                           <img className='w-[250px]'  src={data[0].images}></img>
+>>>>>>> 4396e64c74c261be77a9a850d06adfa409dda37d
                         </div>
                         
                         <div className={`border rounded-2xl hover:delay-300 text-cyan-300 font-bold ${!val1?'hidden':''} bg-sec h-[250px]`}>
@@ -40,9 +48,13 @@ const Start = () => {
 
 
 
+<<<<<<< HEAD
                   <div className='Card mb-2 pb-2 border rounded-2xl bg-white w-[250px]'>
+=======
+                  <div className='Card bg-white w-[250px]'  onMouseEnter={()=>setval2(!val2)} onMouseLeave={()=>setval2(!val2)}>
+>>>>>>> 4396e64c74c261be77a9a850d06adfa409dda37d
                      <div className='w-[250px] h-[250px]'>
-                     <div className='info flex flex-col justify-around' onMouseEnter={()=>setval2(!val2)} onMouseLeave={()=>setval2(!val2)}>
+                     <div className='info flex flex-col justify-around'>
                         <div className={`w-[250px] hover:hidden ${val2?'hidden':''}` }>
                            <img className='w-[250px]' src={data[1].images}></img>
                         </div>
@@ -57,9 +69,13 @@ const Start = () => {
 
 
 
+<<<<<<< HEAD
                   <div className='Card mb-2 pb-2 border rounded-2xl bg-white w-[250px]'>
+=======
+                  <div className='Card bg-white w-[250px]'  onMouseEnter={()=>setval3(!val3)} onMouseLeave={()=>setval3(!val3)}>
+>>>>>>> 4396e64c74c261be77a9a850d06adfa409dda37d
                      <div className='w-[250px] h-[250px]'>
-                     <div className='info flex flex-col justify-around' onMouseEnter={()=>setval3(!val3)} onMouseLeave={()=>setval3(!val3)}>
+                     <div className='info flex flex-col justify-around'>
                         <div className={`w-[250px] hover:hidden ${val3?'hidden':''}` }>
                            <img className='w-[250px] border rounded-2xl' src={data[2].images}></img>
                         </div>
@@ -74,9 +90,13 @@ const Start = () => {
 
 
 
+<<<<<<< HEAD
                   <div className='Card mb-2 pb-2 border rounded-2xl bg-white w-[250px]'>
+=======
+                  <div className='Card bg-white w-[250px]'  onMouseEnter={()=>setval4(!val4)} onMouseLeave={()=>setval4(!val4)}>
+>>>>>>> 4396e64c74c261be77a9a850d06adfa409dda37d
                      <div className='w-[250px] h-[250px]'>
-                     <div className='info flex flex-col justify-around' onMouseEnter={()=>setval4(!val4)} onMouseLeave={()=>setval4(!val4)}>
+                     <div className='info flex flex-col justify-around'>
                         <div className={`w-[250px] hover:hidden ${val4?'hidden':''}` }>
                            <img className='w-[250px]' src={data[3].images}></img>
                         </div>
@@ -92,9 +112,15 @@ const Start = () => {
 
                   
 
+<<<<<<< HEAD
                   <div className='Card mb-2 pb-2 border rounded-2xl bg-white w-[250px]'>
                      <div className='  w-[250px] h-[250px]'>
                      <div className='info flex flex-col justify-around' onMouseEnter={()=>setval5(!val5)} onMouseLeave={()=>setval5(!val5)}>
+=======
+                  <div className='Card bg-white w-[250px]' onMouseEnter={()=>setval5(!val5)} onMouseLeave={()=>setval5(!val5)}>
+                     <div className='w-[250px] h-[250px]'>
+                     <div className='info flex flex-col justify-around' >
+>>>>>>> 4396e64c74c261be77a9a850d06adfa409dda37d
                         <div className={`w-[250px] hover:hidden ${val5?'hidden':''} flex ` }>
                            <img className='w-[250px] border rounded-2xl' src={data[4].images}></img>
                         </div>
