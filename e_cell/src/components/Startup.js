@@ -8,13 +8,13 @@ const Startups=(props)=>{
   return(
     <>
     
-    <div className=" h-80 border flex  rounded-2xl group bg-white m-4 p-2 mb-10 pb-16 ">
-      <div className=" hover:scale-110 flex flex-row lg:block">
+    <div className=" h-80 border flex justify-center self-center rounded-2xl group bg-white m-4 p-2 mb-10 pb-16 ">
+      <div className="  flex flex-row lg:block">
     {/* <h1 className="text-white text-3xl font-bold">{props.title}</h1> */}
-    <div className=" flex mb-0 justify-center self-center w-80 h-80   absolute ">
-    <img className="hover:hidden  w-full mx-auto md:visible h-full flex self-center md:basis-1/4 p-2 hover:opacity-50 hover: transition ease-out duration-300" src={props.images} alt={props.title}/>
+    <div className=" flex mb-0 justify-center self-center w-80 h-80  absolute ">
+    <img className="hover:-z-index-10  w-full mx-auto md:visible z-index-10 h-full flex self-center lg:basis-1/4 p-2 hover:opacity-50 hover: transition ease-out duration-300" src={props.images} alt={props.title}/>
     </div>
-    <div className=" hover:visible relative collapse lg:visible md:basis-1/4 h-full w-80 bg-black -z-index-1 hover:z-index-3 flex items-center justify-center hover:-mb-80 opacity-0 group-hover:opacity-100 overflow-hidden transition-all border rounded-3xl duration-300 text-cyan-400 font-xl font-bold">
+    <div className=" hover:visible relative collapse lg:visible md:basis-1/4 h-full w-80 bg-black -z-index-1 flex items-center justify-center  opacity-0 group-hover:opacity-100 overflow-hidden transition-all border rounded-3xl duration-300 text-cyan-400 font-xl font-bold">
     <p className=" p-2 m-2 -z-index-1 hover:z-index-3 flex  w-full h-full ">{props.about}</p>
     </div>
     </div>
