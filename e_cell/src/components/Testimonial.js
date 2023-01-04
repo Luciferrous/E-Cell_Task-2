@@ -28,8 +28,8 @@ const Testimonial =()=>{
     }
     return(
         <>
-        <div className="p-[20px] bg-back flex justify-center items-center"><h1 className="text-pblue font-bold text-3xl ">Lines Of Appreciation</h1></div>
-        <div className="bg-back pt-[50px] pb-[50px] w-full flex justify-center items-center">
+        <div className=" p-[20px] bg-back flex justify-center items-center"><h1 className="mt-4 pt-8 text-pblue font-bold text-3xl ">Lines Of Appreciation</h1></div>
+        <div className=" bg-back pt-[50px] pb-[50px] w-full flex justify-center items-center">
             
             <div onClick={prev} className="cursor-pointer mr-[40px] h-[30px] w-[30px] bg-blue flex justify-center items-center rounded-[5000px]">
             <GrLinkPrevious color="white"/>

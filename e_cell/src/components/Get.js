@@ -50,10 +50,10 @@ const Get=()=>{
           </div>
         </div>
         <div className="flex mb-[50px]">
-        <div className="cursor-pointer mr-[30px] bg-sec p-[4px] hover:rounded-[5000px]  hover:scale-110 transition-all duration-1000 "><AiFillFacebook className="hover:scale-110" size="50px" color="hsl(179, 93%, 44%)"/></div>
-        <div className="cursor-pointer mr-[30px] bg-sec p-[4px] hover:rounded-[5000px] hover:scale-110 transition-all duration-1000 "><AiFillInstagram className="hover:scale-110" size="50px" color="hsl(179, 93%, 44%)"/></div>
-        <div className="cursor-pointer mr-[30px] bg-sec p-[4px] hover:rounded-[5000px]  hover:scale-110 transition-all duration-1000 "><AiFillTwitterCircle className="hover:scale-110" size="50px" color="hsl(179, 93%, 44%)"/></div>
-        <div className="cursor-pointer  mr-[30px] bg-sec p-[4px] hover:rounded-[5000px]  hover:scale-110 transition-all duration-1000 "><AiFillLinkedin className="hover:scale-110" size="50px" color="hsl(179, 93%, 44%)" /></div>
+        <div className="cursor-pointer mr-[30px] bg-sec p-[4px] hover:rounded-[5000px]  hover:scale-110 transition-all duration-1000 "><AiFillFacebook  size="50px" color="hsl(179, 93%, 44%)"/></div>
+        <div className="cursor-pointer mr-[30px] bg-sec p-[4px] hover:rounded-[5000px] hover:scale-110 transition-all duration-1000 "><AiFillInstagram  size="50px" color="hsl(179, 93%, 44%)"/></div>
+        <div className="cursor-pointer mr-[30px] bg-sec p-[4px] hover:rounded-[5000px]  hover:scale-110 transition-all duration-1000 "><AiFillTwitterCircle  size="50px" color="hsl(179, 93%, 44%)"/></div>
+        <div className="cursor-pointer  mr-[30px] bg-sec p-[4px] hover:rounded-[5000px]  hover:scale-110 transition-all duration-1000 "><AiFillLinkedin  size="50px" color="hsl(179, 93%, 44%)" /></div>
         
         </div>
       </div>
