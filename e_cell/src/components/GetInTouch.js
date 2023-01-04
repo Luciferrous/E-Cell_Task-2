@@ -4,12 +4,12 @@ import React from "react";
 const Form = ()=>{
     return(
      
-        <div className="bg-gray-700 mt-10 pt-14  justify-around  ">
+        <div className="bg-sec justify-around  ">
 
         <div className="bg-sec justify-around  ">
 
               
-            <div className="mb-[30px] flex justify-center">
+            <div className="mt-[50px] mb-[30px] flex justify-center">
                  <h2 className="font-bold flex m-3 p-2 md:justify-center items-center text-white text-2xl">FEEL FREE TO CONTACT IN CASE OF QUERIES</h2>
             </div>
             

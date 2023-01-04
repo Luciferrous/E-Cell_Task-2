@@ -8,14 +8,14 @@ const Startups=(props)=>{
   return(
     <>
     
-    <div className=" h-80 border flex  rounded-2xl group bg-white m-4 p-2 mb-10 pb-16">
+    <div className=" h-80 border flex  rounded-2xl group bg-white m-4 p-2 mb-10 pb-16 ">
       <div className=" hover:scale-110 flex flex-row lg:block">
-    
-    <div>
-    <img className="w-full md:visible h-full flex self-center md:basis-1/4 p-2" src={props.images} alt={props.title}/>
+    {/* <h1 className="text-white text-3xl font-bold">{props.title}</h1> */}
+    <div className=" flex mb-0 justify-center self-center w-80 h-80   absolute ">
+    <img className="hover:hidden  w-full mx-auto md:visible h-full flex self-center md:basis-1/4 p-2 hover:opacity-50 hover: transition ease-out duration-300" src={props.images} alt={props.title}/>
     </div>
-    <div className="p-2 m-2 relative md:basis-1/4 h-full w-full bg-black -z-1 hover:z-index-3 flex items-center justify-center  opacity-0 group-hover:opacity-100 overflow-hidden transition-all border rounded-3xl duration-300 text-cyan-400 font-xl font-bold">
-    <p className="relative  -z-index-1 hover:z-index-3 flex  w-full h-full ">{props.about}</p>
+    <div className=" hover:visible relative collapse lg:visible md:basis-1/4 h-full w-80 bg-black -z-index-1 hover:z-index-3 flex items-center justify-center hover:-mb-80 opacity-0 group-hover:opacity-100 overflow-hidden transition-all border rounded-3xl duration-300 text-cyan-400 font-xl font-bold">
+    <p className=" p-2 m-2 -z-index-1 hover:z-index-3 flex  w-full h-full ">{props.about}</p>
     </div>
     </div>
     </div>

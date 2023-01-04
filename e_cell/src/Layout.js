@@ -25,12 +25,18 @@ const Layout = () => {
 
   const cards=data.map(item=>{
     return (
-    <div className="flex ">  <Startups
+    <div className="flex ">  
+
+      <Startups
        title={item.title}
        images={item.images}
-       about={item.about} /></div>
+       about={item.about} 
+      />
+
+    </div>
     )
   })
+  
   return (
     <div className='w-full h-full flex flex-col bg-back relative '>
      
@@ -52,6 +58,7 @@ const Layout = () => {
      </div>
      
      </div>
+     <br />
      <Testimonial/>
      <Form />
      <Get/>

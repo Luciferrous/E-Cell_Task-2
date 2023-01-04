@@ -2,13 +2,13 @@ const data =[
     {
         title:"LOCO",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/dark_image.png',
-        about:"Loco has been a pioneer in the live game streaming and esports sector in India, paving the way for gaming to go from a niche hobby to a mainstream national interest. The ‘Made in India’ platform is home to India’s most popular streamers and has built highly engaged communities across various games including BGMI (BattleGrounds Mobile India),FreeFire Max, GTA, and Call of Duty Mobile. The platform houses India’s top esports teams and has hosted the country’s largest tournaments in partnership with global game publishers!"
+        about:"Loco has been a pioneer in the live game streaming and esports sector in India, paving the way for gaming to go from a niche hobby to a mainstream national interest. The ‘Made in India’ platform is home to India’s most popular streamers!"
 
     },
     {
         title:"DRIVEZY",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/drivezy.png',
-        about:"Drivezy (formerly JustRide) is India's largest marketplace for car and two-wheeler sharing. Through Drivezy, travelers can book scooters, motorcycles and cars from people living around them.All in all, Drivezy is a car rental platform. Car owners can list their vehicles on Drivezy when they are not using it and the customers can rent it whenever they want to.When it comes to automobiles, millennials today do not believe in ownership and maintenance of their cars and bikes."
+        about:"Drivezy (formerly JustRide) is India's largest marketplace for car and two-wheeler sharing. Through Drivezy, travelers can book scooters, motorcycles and cars from people living around them.All in all, Drivezy is a car rental platform."
     },
     // {
     //     title:"Baabtra",
@@ -19,17 +19,17 @@ const data =[
     {
         title:"Everycrave",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/EC_Logo.jpg',
-        about:"EveryCrave is a Digital Media and Application Development company based out of Bangalore, India.At EveryCrave, they strive to demystify Digital Process for their customers and help organizations conceive and implement innovative and sustainable Digital Business Models.With EveryCrave, what clients get is an extended Digital team, which workstirelessly to ensure projects are on track and achieve business goals. "
+        about:"EveryCrave is a Digital Media and Application Development company based out of Bangalore, India.At EveryCrave, they strive to demystify Digital Process for their customers and help organizations conceive and implement innovative and sustainable Digital Business Mode. "
     },
     {
         title:"Kratikal",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/kratikal.png',
-        about:"Kratikal is an end to end cyber security solutions provider. We provide a complete suite of vulnerability assessment and penetration testing services as well as security auditings like PCI DSS, HIPAA, GDPR and ISO 27001. Our product People Risk Assessment(PRA) Engine access the real-time threat posture of an organization from a people point of viewand reduce the cyber risk upto 90%. We have helped 45+ companies from US, India, Africa, Middle East and New Zealand"
+        about:"Kratikal is an end to end cyber security solutions provider. We provide a complete suite of vulnerability assessment and penetration testing services as well as security auditings like PCI DSS, HIPAA, GDPR and ISO 27001."
     },
     {
         title:"PVR",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/pvr%20photo.jpg',
-        about:"PVR Ltd (formerly Priya Village Roadshow Ltd), doing business as PVR Cinemas,[2] is an Indian multiplex chain based in Gurgaon. PVR pioneered the multiplex revolution in India by establishing the first multiplex cinema in 1997 at Saket, New Delhi.PVR Cinemas has its origin as Priya Cinema in Vasant Vihar, Delhi, the Cinema was named after Priya Jaisinghani and was bought by Ajay Bijli's father in 1978, who also owned a trucking business, Amritsar Transport Co. In 1988, Bijli took over the running of the cinema hall, which was revamped in 1990, and its success led to the founding PVR Cinema."
+        about:"PVR Ltd (formerly Priya Village Roadshow Ltd), doing business as PVR Cinemas,[2] is an Indian multiplex chain based in Gurgaon. PVR pioneered the multiplex revolution in India by establishing the first multiplex cinema in 1997 at Saket, New Delhi."
     },
     // {
     //     title:"SYMB Technologies",

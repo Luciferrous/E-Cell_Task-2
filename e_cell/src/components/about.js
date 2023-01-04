@@ -31,7 +31,7 @@ const  About = () =>
                 <div className='flex flex-col lg:flex-row  lg:justify-around'>
                   
                   <div className='flex flex-col lg:w-1/2 justify-around'>
-                    <div className=' m-8 lg:m-0 lg:w-full rounded-xl bg-cover h-40 lg:h-80 bg-[url("https://ecellmnnit.com//icons/AboutUs/rectangle.png")]'>
+                    <div data-aos='' className=' m-8 lg:m-0 lg:w-full rounded-xl bg-cover h-40 lg:h-80 bg-[url("https://ecellmnnit.com//icons/AboutUs/rectangle.png")] aos-init aos-animate'>
                   
                     </div>
                    
@@ -49,7 +49,7 @@ const  About = () =>
                     <p className={`${read?'':'text-[0px]'} transfrom duration-700`}>Apart from this ECell MNNIT organizes RENAISSANCE, it's annual flagship entrepreneurial summit that provides a platform for aspiring entrepreneurs to encourage the entrepreneurial journey of translating thoughts into action through events like E PLAN, E TALK, PANEL DISCUSSION, MOCK IPL AUCTION, GAME OF STOCKS, INTERNSHIP FAIR and BUSINESS QUIZ.</p>
                     
                     <div className=' mt-10 flex justify-center items-center'>
-                      <button onClick={readmore} className='text-md bg-blue text-wh  pl-[7px] pr-[7px] pt-[4px] pb-[4px] cursor-pointer'>Read {!read?'More':'Less'}</button>
+                      <button onClick={readmore} className='text-md bg-blue text-wh  pl-[7px] pr-[7px] pt-[4px] pb-[4px] cursor-pointer rounded-lg'>Read {!read?'More':'Less'}</button>
                     </div>
                   </div>
 
