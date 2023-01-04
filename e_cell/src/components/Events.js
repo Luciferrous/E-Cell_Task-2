@@ -46,7 +46,7 @@ const Events = () => {
   }
   return (
    <>
-   <div className='Event Main flex flex-col items-center'>
+   <div className='Event Main flex flex-col items-center mb-[60px]'>
         <h1 data-aos="zoom-in" className='text-blue font-bold text-3xl mb-[40px] aos-init aos-animate'>Events</h1>
        <div className='Info Box w-full p-4 flex flex-col justify-around   lg:items-center lg:flex-row '>
             

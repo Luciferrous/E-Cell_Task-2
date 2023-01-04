@@ -4,7 +4,7 @@ import React from "react";
 const Form = ()=>{
     return(
      
-        <div className="bg-sec justify-around  ">
+        <div className="p-[30px] bg-sec justify-around  ">
 
         <div className="bg-sec justify-around  ">
 
@@ -18,20 +18,20 @@ const Form = ()=>{
               <div> 
                 <div className="  bg-back flex flex-col justify-center items-center md:justify-center items-center font-bold mx-auto p-5 h-90 border rounded-xl md:flex flex-col justify-center items-center ">
               <div className="w-full">
-              <label className="text-white p-2 m-2"> NAME:  </label>
-                <input type="text" className="border rounded p-2 m-2 w-full" placeholder="Enter your name here" /> 
+              <label className="text-white p-2 m-2"> NAME  </label>
+                <input type="text" className="border rounded p-2 m-2 w-full" placeholder="Enter your name" /> 
                 </div>
                 <br />
                 <div className="w-full">
-               <label className="text-white p-2 m-2"> EMAIL:  </label>
-                <input type="email" className="border rounded p-2 m-2 w-full " placeholder="Enter your email here"/> 
+               <label className="text-white p-2 m-2"> EMAIL  </label>
+                <input type="email" className="border rounded p-2 m-2 w-full " placeholder="Enter your email"/> 
                 </div>
                 <br />
                 <div className="w-full">
-                <label className="text-white p-2 m-2"> MESSAGE:  </label>
+                <label className="text-white p-2 m-2"> MESSAGE  </label>
                 <br/>
                 {/* <input type="text"  className="border rounded p-2 m-2 w-full"  placeholder="Enter your comment here" /> */}
-                <textarea className="border rounded p-2 m-2 w-full " placeholder="Enter your comment here" rows="4" cols="70">
+                <textarea className="border rounded p-2 m-2 w-full " placeholder="Enter your message" rows="4" cols="70">
     </textarea>
                 </div>
                 <button type="submit" className="text-white pr-3 pl-3 pt-2 pb-2 m-4  rounded-xl bg-blue hover:bg-lblue" >SUBMIT</button>
