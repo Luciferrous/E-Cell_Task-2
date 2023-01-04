@@ -37,7 +37,7 @@ const Start = () => {
 
                   <div className='m-3 Card border rounded-2xl bg-white w-[250px]'  onMouseEnter={()=>setval2(!val2)} onMouseLeave={()=>setval2(!val2)}>
                      <div className='w-[250px] h-[250px]'>
-                     <div className='info flex flex-col justify-around' onMouseEnter={()=>setval2(!val2)} onMouseLeave={()=>setval2(!val2)}>
+                     <div className='info flex flex-col justify-around'>
                         <div className={`w-[250px] hover:hidden ${val2?'hidden':''}` }>
                            <img className='w-[250px]' src={data[1].images}></img>
                         </div>
@@ -54,7 +54,7 @@ const Start = () => {
 
                   <div className='m-3 Card border rounded-2xl bg-white w-[250px]'  onMouseEnter={()=>setval3(!val3)} onMouseLeave={()=>setval3(!val3)}>
                      <div className='w-[250px] h-[250px]'>
-                     <div className='info flex flex-col justify-around' onMouseEnter={()=>setval3(!val3)} onMouseLeave={()=>setval3(!val3)}>
+                     <div className='info flex flex-col justify-around'>
                         <div className={`w-[250px] hover:hidden ${val3?'hidden':''}` }>
                            <img className='w-[250px] border rounded-2xl' src={data[2].images}></img>
                         </div>
