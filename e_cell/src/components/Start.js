@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-// import { useEffect } from 'react'
+import React, { useState } from 'react'
 import data from '../assets/startup'                     
 
 const Start = () => {
@@ -10,11 +9,7 @@ const Start = () => {
     const [val4,setval4] = useState(false)
     const [val5,setval5] = useState(false)
 
-   //  useEffect(() => {
-   //    const timer = setTimeout(() => console.log("Hello, World!"), 3000);
-   //    return () => clearTimeout(timer);
-   //  }, []);
-
+   
   return (
     <>
 
@@ -23,15 +18,23 @@ const Start = () => {
         </div>
         <div className='flex flex-col lg:flex-row justify-around items-center bg-back '>
         
+<<<<<<< HEAD
                  <div className='Card mb-2 pb-2 border rounded-2xl bg-white w-[250px]'>
                      <div className='w-[250px] h-[250px]'>
                      <div className='info flex flex-col justify-around' onMouseEnter={()=>setval1(!val1)} onMouseLeave={()=>setval1(!val1)}>
                         <div className={`w-[250px]  hover:hidden ${val1?'hidden':''}` }>
                            <img className='w-[250px] '  src={data[0].images}></img>
+=======
+                 <div className='Card bg-white w-[250px]' onMouseEnter={()=>setval1(!val1)} onMouseLeave={()=>setval1(!val1)}>
+                     <div className='w-[250px] h-[250px]'>
+                     <div className='info flex flex-col justify-around' >
+                        <div className={`w-[250px] hover:hidden ${val1?'hidden':''}` }>
+                           <img className='w-[250px]'  src={data[0].images}></img>
+>>>>>>> d6cf40f8bd3fa24d16191bf83c5dec4c8703b2b5
                         </div>
                         
-                        <div className={`border rounded-2xl hover:delay-300 text-cyan-300 font-bold ${!val1?'hidden':''} bg-sec h-[250px]`}>
-                          <p className="p-2" >{data[0].about}</p>
+                        <div className={`${!val1?'hidden':''} bg-sec h-[250px] p-2 text-justify text-white `}>
+                          <p >{data[0].about}</p>
                         </div>
                        
                      </div>
@@ -40,15 +43,19 @@ const Start = () => {
 
 
 
+<<<<<<< HEAD
                   <div className='Card mb-2 pb-2 border rounded-2xl bg-white w-[250px]'>
+=======
+                  <div className='Card bg-white w-[250px]'  onMouseEnter={()=>setval2(!val2)} onMouseLeave={()=>setval2(!val2)}>
+>>>>>>> d6cf40f8bd3fa24d16191bf83c5dec4c8703b2b5
                      <div className='w-[250px] h-[250px]'>
                      <div className='info flex flex-col justify-around' onMouseEnter={()=>setval2(!val2)} onMouseLeave={()=>setval2(!val2)}>
                         <div className={`w-[250px] hover:hidden ${val2?'hidden':''}` }>
                            <img className='w-[250px]' src={data[1].images}></img>
                         </div>
                         
-                        <div className={` border rounded-2xl text-black text-cyan-300 font-bold ${!val2?'hidden':''} bg-sec h-[250px]`}>
-                          <p className="p-2" >{data[1].about}</p>
+                        <div className={`${!val2?'hidden':''} bg-sec h-[250px] p-2 text-justify text-white `}>
+                          <p >{data[1].about}</p>
                         </div>
                        
                      </div>
@@ -57,15 +64,19 @@ const Start = () => {
 
 
 
+<<<<<<< HEAD
                   <div className='Card mb-2 pb-2 border rounded-2xl bg-white w-[250px]'>
+=======
+                  <div className='Card bg-white w-[250px]'  onMouseEnter={()=>setval3(!val3)} onMouseLeave={()=>setval3(!val3)}>
+>>>>>>> d6cf40f8bd3fa24d16191bf83c5dec4c8703b2b5
                      <div className='w-[250px] h-[250px]'>
                      <div className='info flex flex-col justify-around' onMouseEnter={()=>setval3(!val3)} onMouseLeave={()=>setval3(!val3)}>
                         <div className={`w-[250px] hover:hidden ${val3?'hidden':''}` }>
-                           <img className='w-[250px] border rounded-2xl' src={data[2].images}></img>
+                           <img className='w-[250px]' src={data[2].images}></img>
                         </div>
                         
-                        <div className={`border rounded-2xl text-black text-cyan-300 font-bold ${!val3?'hidden':''} bg-sec h-[250px]`}>
-                          <p className="p-2" >{data[2].about}</p>
+                        <div className={`${!val3?'hidden':''} bg-sec h-[250px] p-2 text-justify text-white `}>
+                          <p >{data[2].about}</p>
                         </div>
                        
                      </div>
@@ -74,15 +85,22 @@ const Start = () => {
 
 
 
+<<<<<<< HEAD
                   <div className='Card mb-2 pb-2 border rounded-2xl bg-white w-[250px]'>
                      <div className='w-[250px] h-[250px]'>
                      <div className='info flex flex-col justify-around' onMouseEnter={()=>setval4(!val4)} onMouseLeave={()=>setval4(!val4)}>
                         <div className={`w-[250px] hover:hidden ${val4?'hidden':''}` }>
+=======
+                  <div className='Card bg-white w-[250px] transform duration-300'  onMouseEnter={()=>setval4(!val4)} onMouseLeave={()=>setval4(!val4)}>
+                     <div className='w-[250px] h-[250px]'>
+                     <div className='info flex flex-col justify-around'>
+                        <div className={`w-[250px] ${val4?'hidden':''}` }>
+>>>>>>> d6cf40f8bd3fa24d16191bf83c5dec4c8703b2b5
                            <img className='w-[250px]' src={data[3].images}></img>
                         </div>
                         
-                        <div className={`border rounded-2xl text-black text-cyan-300 font-bold ${!val4?'hidden':''} bg-sec h-[250px]`}>
-                          <p className="p-2" >{data[3].about}</p>
+                        <div className={`${!val4?'hidden':''} bg-sec h-[250px] p-2 text-justify text-white `}>
+                          <p >{data[3].about}</p>
                         </div>
                        
                      </div>
@@ -92,15 +110,23 @@ const Start = () => {
 
                   
 
+<<<<<<< HEAD
                   <div className='Card  border rounded-2xl bg-white w-[250px]'>
                      <div className='  w-[250px] h-[250px]'>
                      <div className='info flex flex-col justify-around' onMouseEnter={()=>setval5(!val5)} onMouseLeave={()=>setval5(!val5)}>
                         <div className={`w-[250px] hover:hidden ${val5?'hidden':''} flex ` }>
                            <img className='w-[250px] border rounded-2xl' src={data[4].images}></img>
+=======
+                  <div className='Card bg-white w-[250px]' onMouseEnter={()=>setval5(!val5)} onMouseLeave={()=>setval5(!val5)}>
+                     <div className='w-[250px] h-[250px]'>
+                     <div className='info flex flex-col justify-around' >
+                        <div className={`w-[250px] hover:hidden ${val5?'hidden':''} flex  items-center` }>
+                           <img className='w-[250px] ' src={data[4].images}></img>
+>>>>>>> d6cf40f8bd3fa24d16191bf83c5dec4c8703b2b5
                         </div>
                         
-                        <div className={`border rounded-2xl text-black text-cyan-300 font-bold ${!val5?'hidden':''} bg-sec h-[250px]`}>
-                          <p className="p-2" >{data[4].about}</p>
+                        <div className={`${!val5?'hidden':''} bg-sec h-[250px]  p-2 text-justify text-white `}>
+                          <p >{data[4].about}</p>
                         </div>
                        
                      </div>

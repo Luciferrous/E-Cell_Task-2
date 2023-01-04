@@ -2,7 +2,7 @@ const data =[
     {
         title:"LOCO",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/dark_image.png',
-        about:"Loco has been a pioneer in the live game streaming and esports sector in India, paving the way for gaming to go from a niche hobby to a mainstream national interest. The ‘Made in India’ platform is home to India’s most popular streamers!"
+        about:"Loco has been a pioneer in the live game streaming and esports sector in India, paving the way for gaming to go from a niche hobby to a mainstream national interest. The 'Made in India' platform is home to India's most popular streamers!"
 
     },
     {
@@ -13,7 +13,7 @@ const data =[
     {
         title:"Everycrave",
         images:'https://ecellmnnit.com//images/Startup/logo/logo/EC_Logo.jpg',
-        about:"EveryCrave is a Digital Media and Application Development company based out of Bangalore, India.At EveryCrave, they strive to demystify Digital Process for their customers and help organizations  implement innovative  Digital Business Model. "
+        about:"EveryCrave is a Digital Media and Application Development company based out of Bangalore, India. Here, they strive to demystify Digital Process for their customers and help organizations implement innovative and sustainable Digital Business Mode. "
     },
     {
         title:"Kratikal",
@@ -25,15 +25,6 @@ const data =[
         images:'https://ecellmnnit.com//images/Startup/logo/logo/pvr%20photo.jpg',
         about:"PVR Ltd (formerly Priya Village Roadshow Ltd), doing business as PVR Cinemas,[2] is an Indian multiplex chain based in Gurgaon. PVR pioneered the multiplex revolution in India by establishing the first multiplex cinema in 1997 at Saket, New Delhi."
     },
-    // {
-    //     title:"SYMB Technologies",
-    //     images:'https://ecellmnnit.com//images/Startup/logo/logo/symbtechnologies_logo.png',
-    //     about:"SYMB Technologies provide complete digital solutions to their clients in diverse sectors from Ecommerce, Solar & Banking to Manufacturing & Trading. SYMB Technologies helps agencies, startups, SMEs & large enterprises turn their ideas into reality by delivering solutions turn-key results on time and on budget. SYMB Technologies was founded in 2014, when Bhupendra Kunwar a post graduate from IIM Lucknow & a technology graduate from NIT Allahabad quit his job to start a company to provide web & mobile application development services to businesses in Delhi NCR."
-    // },
-    // {
-    //     title:"Unacademy",
-    //     images:'https://ecellmnnit.com//images/Startup/logo/logo/Unacademy_Logo.png',
-    //     about:"Unacademy is an Indian educational technology company that provides online educational platform[2] with its headquarters in Bangalore, Karnataka. It prepares students for various competitive exams(like JEE, NEET, UPSC, CA, GATE, UPSC NDA, CUET, Boards etc.), as well as provides content on foundational (K-12) and skill building courses (programming, photography, entrepreneurship, etc.).t was founded by Gaurav Munjal, Hemesh Singh and Roman Saini in 2015. As of May 2022, Unacademy was valued at USD $3.44 billion"
-    // }
+   
 ]
 export default data;
